@@ -1,0 +1,143 @@
+@charset "utf-8"; 
+
+.top_banner {
+	background: url(../img/about_banner.png) no-repeat center center;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.content .intro img {
+	display: block;
+	margin: 0 auto 50px;
+}
+
+.content .intro p {
+	color: #222222;
+	font-weight: 300;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 120px;
+}
+
+.content .intro p span {
+	font-weight: 500;
+}
+
+.content > div {
+	text-align: center;
+}
+
+.content > div > h3.title {
+	line-height: 32px;
+	color: #222222;
+	font-weight: 100;
+	background: url(../img/title_bar.png) no-repeat left top;
+	padding-top: 26px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.content > div > h3.title span {
+	font-weight: 500;
+}
+
+.content .purpose {
+	margin-bottom: 120px;
+}
+
+.content .purpose div {
+	width: 900px;
+	margin: 0 auto 20px;
+	background: url(../img/purpose_bg.png) no-repeat center center;
+	line-height: 50px;
+}
+
+.content .purpose div p.left {
+	float: left;
+	width: 170px;
+	color: #9a9a9a;
+	font-weight: 300;
+}
+
+.content .purpose div p.right {
+	float: left;
+	text-align: left;
+	margin-left: 30px;
+	font-weight: 300;
+	color: #222222;
+}
+
+.content .purpose div p.right span {
+	font-weight: 500;
+}
+
+.content .target ul {
+	width: 900px;
+	margin: 0 auto 120px;
+	background: url(../img/curriculum_line.png) no-repeat center 55px;
+}
+
+.content .target ul li {
+	width: 180px;
+	float: left;
+	margin-left: 60px
+}
+
+.content .target ul li:first-child {
+	margin-left: 0;
+}
+
+.content .target ul li p {
+	color: #222222;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.content .target ul li p span {
+	font-weight: 500;
+}
+
+.content .effect ul {
+	width: 840px;
+	margin: 0 auto;
+	background: url(../img/effect_img.png) no-repeat top center;
+}
+
+.content .effect ul li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	background: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	border-radius: 50%;
+}
+
+.content .effect ul li.effect01 {
+	margin-top: 125px;
+}
+
+.content .effect ul li.effect02 {
+	margin: 225px 120px 0;
+}
+
+.content .effect ul li.effect03 {
+	margin-top: 125px;
+}
+
+.content .effect ul li p.gray {
+	color: #9a9a9a !important;
+	font-weight: 300;
+	margin-bottom: 15px;
+	margin-top: 55px;
+}
+
+.content .effect ul li p.black {
+	font-weight: 300;
+}
+
+.content .effect ul li p.black span {
+	font-weight: 500;
+}

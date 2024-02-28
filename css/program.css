@@ -1,0 +1,103 @@
+@charset "utf-8"; 
+
+.top_banner {
+	background: url(../img/program_banner.png) no-repeat center center;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.content .program {
+	background: url(../img/program_line.png) no-repeat center 200px;
+}
+
+.content .program img {
+	display: block;
+	margin: 0 auto 50px;
+}
+
+.content .program ul {
+	width: 900px;
+	margin: 0 auto;	
+}
+
+.content .program ul li {
+	float: left;
+	width: 180px;
+}
+
+.content .program ul li img {
+	margin-bottom: 10px;
+}
+
+.content .program ul li p {
+	font-weight: 500;
+	color: #222222;
+	text-align: center;
+}
+
+.content .program p.gray {
+	text-align: center;
+	font-weight: 300;
+	margin: 50px 0 120px;
+}
+
+.content .curriculum {
+	text-align: center;
+}
+
+.content .curriculum h3.title {
+	line-height: 32px;
+	color: #222222;
+	font-weight: 100;
+	background: url(../img/title_bar.png) no-repeat left top;
+	padding-top: 26px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.content .curriculum h3.title span {
+	font-weight: 500;
+}
+
+.content .curriculum ul {
+	width: 900px;
+	margin: 0 auto;
+	background: url(../img/curriculum_line.png) no-repeat center 55px;
+}
+
+.content .curriculum ul li {
+	float: left;
+	width: 180px;
+}
+
+.content .curriculum ul li.mg {
+	margin: 0 180px;
+}
+
+.content .curriculum ul li p.black {
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.content .curriculum ul li .three_circle {
+	margin: 10px 0 7px;
+}
+
+.content .curriculum ul li p.box {
+	width: 120px;
+	height: 32px;
+	line-height: 30px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	border: 1px solid #d5d5d5;
+	color: #6b6b6b;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+.content .curriculum ul li .arrow {
+	margin: 10px 0 3px;
+}

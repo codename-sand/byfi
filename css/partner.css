@@ -1,0 +1,24 @@
+@charset "utf-8"; 
+
+.top_banner {
+	background: url(../img/partner_banner.png) no-repeat center center;
+}
+
+.logos {
+	width: 1290px;
+	margin: 60px auto 0;
+}
+
+.logos .logo {
+	width: 1320px;
+}
+
+.logos .logo a {
+	float: left;
+}
+
+.logos .logo img {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,317 @@
+@charset "utf-8"; 
+
+
+/*
+title: common.css
+created: 2018-07-23
+last Modified: 2018-07-24
+editor(s): Sangeun O
+last Editor: Sangeun O
+*/
+
+
+
+/************************************************
+
+					setting
+
+*************************************************/
+* {margin: 0; padding: 0; border: 0; outline: 0;}
+html, body {font-family: 'NotoSansKR', sans-serif; letter-spacing: -1px;}
+ul, ol, dl {list-style:none;}
+a {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table, table tr, table td {border: 0; border-collapse: collapse; border-spacing: 0;}
+.blind, legend, caption {display: block; overflow: hidden;position: absolute; top: 0; left: -1000em;}
+.cf:after {clear: both; display: block; content: "";}
+.mg_center {margin: 0 auto;	width: 1320px;}
+
+
+
+
+
+/************************************************
+
+					text
+
+*************************************************/
+.ellipsis {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+h2 {font-size: 40px; font-weight: normal;}
+h3 {font-size: 32px; font-weight: normal;}
+h4 {font-size: 30px; font-weight: normal;}
+h5 {font-size: 20px; font-weight: normal;}
+h6 {font-size: 18px; font-weight: normal;}
+
+
+
+
+
+/**************************************************
+                       
+                       color
+
+***************************************************/
+/*font-color*/
+.white {color: #ffffff !important;}
+.black {color: #222222 !important;}
+.gray {color: #6b6b6b !important;}
+.pink {color: #f26660 !important;}
+.green {color: #189a9d !important;}
+
+/*bg-color*/
+.bg_pink {background-color: #f26660 !important;}
+.bg_green {background-color: #189a9d !important;}
+.bg_black {background-color: #222222 !important;}
+
+/*border-color*/
+.border_pink {border: 1px solid #f26660 !important;}
+.border_green {border: 1px solid #189a9d !important;}
+.border_black {border: 1px solid #222222 !important;}
+
+/*input placeholder color*/
+input::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.5);}
+input:-ms-input-placeholder {color: rgba(255, 255, 255, 0.5);}
+input::-moz-placeholder {color: rgba(255, 255, 255, 0.5);}
+textarea::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.5);}
+textarea:-ms-input-placeholder {color: rgba(255, 255, 255, 0.5);}
+textarea::-moz-placeholder {color: rgba(255, 255, 255, 0.5);}
+
+/*drag color*/
+::selection {background: #189a9d; color: #ffffff; text-shadow: none;}
+::-moz-selection {background: #189a9d; color: #ffffff; text-shadow: none;}
+::-webkit-selection {background: #189a9d; color: #ffffff; text-shadow: none;}
+
+
+
+
+
+/**************************************************
+                       
+                       header
+
+***************************************************/
+header {
+	height: 80px;
+}
+
+header h1 {
+	float: left;
+}
+
+header h1 img {
+	display: block;
+	margin-top: 20px;
+}
+
+header ul.main_menu {
+	float: right;
+}
+
+header ul.main_menu li  {
+	float: left;
+	line-height: 80px;
+	margin-left: 50px;
+}
+
+header ul.main_menu li a {
+	font-size: 18px;
+	color: #222222;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+header ul.main_menu li a:hover {
+	color: #f26660;
+}
+
+
+
+
+
+/**************************************************
+                       
+                      footer
+
+***************************************************/
+footer {
+	margin-top: 120px;
+	height: 120px;
+	background-color: #2e2e2e;
+}
+
+footer .footer_logo {
+	float: left;
+	margin-top: 41px;
+	margin-right: 80px;
+}
+
+footer .text {
+	float: left;
+	margin-top: 35px;
+}
+
+footer .text p {
+	font-size: 15px;
+	color: #d5d5d5;
+	font-weight: 200;
+	float: left;
+}
+
+footer .text .line {
+	width: 1px;
+	height: 10px;
+	background-color: #d5d5d5;
+	float: left;
+	margin: 7px 15px 0;
+}
+
+footer .text p.copy {
+	opacity: 0.5;
+	margin-top: 5px;
+	clear: both;
+}
+
+footer .family {
+	float: right;
+	position: relative;
+	margin-top: 40px;
+	border: 1px solid #d5d5d5;
+	box-sizing: border-box;
+	width: 200px;
+}
+
+footer .family > a {
+	color: #d5d5d5;
+	font-weight: 200;
+	font-size: 15px;
+	display: block;
+	box-sizing: border-box;
+	line-height: 38px;
+	padding-left: 15px;
+	background: url(../img/family_bg.png) no-repeat right center;
+}
+
+footer .family > a.active {
+	background: url(../img/family_bg02.png) no-repeat right center;
+}
+
+footer .family ul {
+	position: absolute;
+	bottom: 38px;
+	left: -1px;
+	width: 200px;
+	box-sizing: border-box;
+	background-color: #2e2e2e;
+	border: 1px solid #d5d5d5;
+	border-bottom: 0;
+	display: none;
+}
+
+footer .family ul li a {
+	color: #d5d5d5;
+	font-size: 15px;
+	display: block;
+	box-sizing: border-box;	
+	line-height: 38px;
+	padding-left: 15px;
+}
+
+
+
+
+
+/**************************************************
+                       
+                    popup
+
+***************************************************/
+.notice_wrap {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 9999;
+	display: none;
+}
+
+.notice {
+	position: fixed;
+	top: 50%;
+	margin-top: -64px;
+	left: 50%;
+	margin-left: -150px;
+	background-color: white;
+	width: 300px;
+	padding: 40px 0;
+	z-index: 9999;
+	border-radius: 10px;
+}
+
+.notice p {
+	color: #222222;
+	text-align: center;
+}
+
+.notice img {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 15px;
+	cursor: pointer;
+}
+
+
+
+
+
+/**************************************************
+                       
+                    sub page
+
+***************************************************/
+.top_banner {
+	height: 260px;	
+	padding-top: 70px;
+	box-sizing: border-box;
+	margin-bottom: 80px;
+}
+
+.top_banner h5 {
+	text-align: center;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.top_banner h5 span {
+	font-weight: 500;
+}
+
+.top_banner h3 {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.top_banner h3 span {
+	font-weight: 500;
+}
+
+.top_banner img {
+	display: block;
+	margin: 0 auto;
+}
+
+.title_text {
+	text-align: center;
+	color: #222222;
+	font-weight: 100;
+	line-height: 52px;
+}
+
+.title_text span {
+	font-weight: 500;
+}
