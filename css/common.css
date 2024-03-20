@@ -26,7 +26,7 @@ table, table tr, table td {border: 0; border-collapse: collapse; border-spacing:
 .blind, legend, caption {display: block; overflow: hidden;position: absolute; top: 0; left: -1000em;}
 .cf:after {clear: both; display: block; content: "";}
 .mg_center {margin: 0 auto;	width: 1320px;}
-
+.flex{display: flex;}
 
 
 

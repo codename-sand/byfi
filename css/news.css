@@ -7,14 +7,12 @@
 .news_filter {
 	text-align: center;
 	margin: 40px 0 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .news_filter li {
-	display: inline-block;
-}
-
-.news_filter li p {
-	display: block;
 	padding: 0 20px;
 	height: 32px;
 	box-sizing: border-box;
@@ -28,11 +26,15 @@
 	cursor: pointer;
 }
 
-.news_filter li:first-child p {
+.news_filter li {
+	
+}
+
+.news_filter li:first-child {
 	margin-left: 0;
 }
 
-.news_filter li p.active {
+.news_filter li.active {
 	border-color: #189a9d;
 	background: #189a9d;
 	color: white;
